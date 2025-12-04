@@ -1,0 +1,176 @@
+    1  ls
+    2  ls -la
+    3  ls
+    4  nano infomracoes
+    5  ls
+    6  rm infomracoes 
+    7  nano informacoes.txt
+    8  vi informacoes2
+    9  vi informacoes2.txt
+   10  nano informacoes.txt
+   11  ls
+   12  nano informacoes.txt.save 
+   13  rename
+   14  sudo apt update
+   15  sudo apt install apache2
+   16  sudo mkdir /var/www/labinf
+   17  cd /var/www/labinf/
+   18  nano index.html
+   19  sudo nano index.html
+   20  cd /etc/apache2/sites-available/
+   21  sudo cp 000-default.conf labinf.conf
+   22  sudo nano labinf.conf 
+   23  service apache2 reload
+   24  sudo service apache2 reload
+   25  sudo systemctl status apache2
+   26  sudo ufw allow 80/tcp
+   27  sudo ufw allow 443/tcp
+   28  sudo ufw reload
+   29  sudo service apache2 reload
+   30  sudo systemctl status apache2 --no-pager -l
+   31  curl -I http://127.0.0.1
+   32  sudo systemctl restart apache2 || sudo systemctl restart httpd
+   33  sudo ufw status verbose
+   34  sudo ufw allow 80/tcp
+   35  sudo ufw allow 443/tcp
+   36  sudo ufw reload
+   37  curl -I http://45.94.208.135
+   38  sudo apachectl -S 2>/dev/null || sudo httpd -S 2>/dev/null
+   39  sudo ss -ltnp | egrep ':(80|443)\s' || true
+   40  curl -I http://127.0.0.1
+   41  sudo ufw status verbose
+   42  sudo ufw allow 80/tcp
+   43  sudo ufw allow 443/tcp
+   44  sudo ufw reload
+   45  ls
+   46  cd /var/www/labinf/
+   47  ls
+   48  git clone 
+   49  git clone https://github.com/ishadowkk/labinf_html.git
+   50  sudo git clone https://github.com/ishadowkk/labinf_html.git
+   51  ls
+   52  cd labinf_html/
+   53  ls
+   54  sudo nano labinf.conf 
+   55  cd /etc/apache2/sites-available/
+   56  ls
+   57  nano labinf.conf 
+   58  sudo nano labinf.conf 
+   59  sudo systemctl reload apache
+   60  sudo systemctl reload apache2
+   61  sudo service apache2 restart
+   62  ls
+   63  nano labinf.conf 
+   64  sudo nano /etc/apache2/sites-available/labinf.conf
+   65  sudo a2ensite labinf.conf
+   66  sudo a2dissite 000-default.conf
+   67  sudo systemctl reload apache2
+   68  ls
+   69  cd /var/www/html/
+   70  ls
+   71  ls -la
+   72  cd ..
+   73  ls
+   74  cd labinf/
+   75  ls
+   76  ls -la
+   77  cd labinf_html/
+   78  ls
+   79  ls -la
+   80  clear
+   81  cd var/ww
+   82  cd /var/www/labinf/labinf_html/
+   83  git pull
+   84  git pull origin main
+   85  sudo git pull origin main
+   86  ls
+   87  nano informacoes.txt.save 
+   88  pwd
+   89  git clone https://github.com/ishadowkk/LI2025-Teste03.git
+   90  ls
+   91  cd LI2025-Teste03/
+   92  ls
+   93  ls -la
+   94  mkdir A131622
+   95  cd A131622/
+   96  touch README.md
+   97  ls
+   98  nano README.md 
+   99  cd ..
+  100  ls
+  101  git status
+  102  git add .
+  103  ls
+  104  git status
+  105  git commit -m "2ª tarefa concluída"
+  106  git config --global --edit
+  107  git push origin main
+  108  ls
+  109  ls -la
+  110  git pull origin main
+  111  ls
+  112  cp index.html disciplinas.html
+  113  ls
+  114  git status
+  115  git add disciplinas.html 
+  116  ls
+  117  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+  118  git push origin main
+  119  git pull origin main
+  120  history > meusComandosAzure.txt
+  121  cat meusComandosAzure.txt 
+  122  git add . && git commit -m "history azure" && git push origin main
+  123  ls
+  124  pwd
+  125  mkdir A131622
+  126  ls
+  127  rm -rf A131622/
+  128  git clone https://github.com/ishadowkk/LI2025-Teste03-rev2.git
+  129  cd LI2025-Teste03-rev2/
+  130  ls
+  131  mkdir A131622
+  132  cd A131622/
+  133  touch README.md
+  134  nano README.md 
+  135  cd ..
+  136  git status
+  137  git add .
+  138  git commit -m "2ª tarefa concluida"
+  139  git push origin main
+  140  ls
+  141  git status
+  142  ls
+  143  git branch
+  144  git pull
+  145  ls
+  146  cp index.html disciplinas.html
+  147  ls
+  148  git status
+  149  git add .
+  150  git commit -m "Criado ficheiros disciplinas.html a partir do ficheiro index.html"
+  151  git push origin main
+  152  git pull origin main
+  153  history > meusComandosAzure.txt
+  154  cat meusComandosAzure.txt 
+  155  ls
+  156  git add . && git commit -m "history azure" && git push origin main
+  157  pwd
+  158  git clone https://github.com/ishadowkk/LI2025_Teste04.git
+  159  ls
+  160  cd LI2025-Teste04
+  161  cd LI2025_Teste04/
+  162  mkdir js && mkdir css
+  163  ls
+  164  cd js
+  165  touch script.js
+  166  nano touch script.js 
+  167  ls
+  168  rm touch
+  169  nano script.js 
+  170  ls
+  171  nano script.js 
+  172  touch ../css/style.css
+  173  cd ..
+  174  cd css/
+  175  ls
+  176  history > cmdsTarefa2.txt
